@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/utils"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/utils"
 )
 
 var (

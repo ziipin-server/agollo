@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/agcache/memory"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/server"
+	"github.com/ziipin-server/agollo/v4/agcache/memory"
+	"github.com/ziipin-server/agollo/v4/env/config"
+	"github.com/ziipin-server/agollo/v4/env/server"
 
-	_ "github.com/apolloconfig/agollo/v4/env/file/json"
-	"github.com/apolloconfig/agollo/v4/extension"
-	"github.com/apolloconfig/agollo/v4/storage"
 	. "github.com/tevid/gohamcrest"
+	_ "github.com/ziipin-server/agollo/v4/env/file/json"
+	"github.com/ziipin-server/agollo/v4/extension"
+	"github.com/ziipin-server/agollo/v4/storage"
 )
 
 const testDefaultNamespace = "application"

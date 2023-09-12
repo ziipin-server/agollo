@@ -20,8 +20,8 @@ package yml
 import (
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/utils"
-	"github.com/apolloconfig/agollo/v4/utils/parse"
+	"github.com/ziipin-server/agollo/v4/utils"
+	"github.com/ziipin-server/agollo/v4/utils/parse"
 
 	. "github.com/tevid/gohamcrest"
 )

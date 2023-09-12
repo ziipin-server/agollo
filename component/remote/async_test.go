@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/cluster/roundrobin"
-	"github.com/apolloconfig/agollo/v4/env"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	jsonFile "github.com/apolloconfig/agollo/v4/env/file/json"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/extension"
-	http2 "github.com/apolloconfig/agollo/v4/protocol/http"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/cluster/roundrobin"
+	"github.com/ziipin-server/agollo/v4/env"
+	"github.com/ziipin-server/agollo/v4/env/config"
+	jsonFile "github.com/ziipin-server/agollo/v4/env/file/json"
+	"github.com/ziipin-server/agollo/v4/env/server"
+	"github.com/ziipin-server/agollo/v4/extension"
+	http2 "github.com/ziipin-server/agollo/v4/protocol/http"
 )
 
 var asyncApollo *asyncApolloConfig

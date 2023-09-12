@@ -19,13 +19,14 @@ package json
 
 import (
 	"encoding/json"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/utils"
 	"os"
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/extension"
+	"github.com/ziipin-server/agollo/v4/env/config"
+	"github.com/ziipin-server/agollo/v4/utils"
+
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/extension"
 )
 
 func TestCreateDir(t *testing.T) {

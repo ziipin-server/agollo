@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/extension"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/extension"
 )
 
 func TestRawHandler_WriteConfigDirFile(t *testing.T) {

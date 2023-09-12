@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/cluster/roundrobin"
-	"github.com/apolloconfig/agollo/v4/component/log"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/extension"
+	"github.com/ziipin-server/agollo/v4/cluster/roundrobin"
+	"github.com/ziipin-server/agollo/v4/component/log"
+	"github.com/ziipin-server/agollo/v4/env/server"
+	"github.com/ziipin-server/agollo/v4/extension"
 
-	"github.com/apolloconfig/agollo/v4/env"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/config/json"
-	"github.com/apolloconfig/agollo/v4/utils"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/env"
+	"github.com/ziipin-server/agollo/v4/env/config"
+	"github.com/ziipin-server/agollo/v4/env/config/json"
+	"github.com/ziipin-server/agollo/v4/utils"
 
 	json2 "encoding/json"
 )

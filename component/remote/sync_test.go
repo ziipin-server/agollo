@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/constant"
-	"github.com/apolloconfig/agollo/v4/env"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/extension"
-	"github.com/apolloconfig/agollo/v4/utils/parse/normal"
-	"github.com/apolloconfig/agollo/v4/utils/parse/properties"
-	"github.com/apolloconfig/agollo/v4/utils/parse/yaml"
-	"github.com/apolloconfig/agollo/v4/utils/parse/yml"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/constant"
+	"github.com/ziipin-server/agollo/v4/env"
+	"github.com/ziipin-server/agollo/v4/env/config"
+	"github.com/ziipin-server/agollo/v4/env/server"
+	"github.com/ziipin-server/agollo/v4/extension"
+	"github.com/ziipin-server/agollo/v4/utils/parse/normal"
+	"github.com/ziipin-server/agollo/v4/utils/parse/properties"
+	"github.com/ziipin-server/agollo/v4/utils/parse/yaml"
+	"github.com/ziipin-server/agollo/v4/utils/parse/yml"
 )
 
 var (

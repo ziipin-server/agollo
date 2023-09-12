@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/env/config"
 	. "github.com/tevid/gohamcrest"
+	"github.com/ziipin-server/agollo/v4/env/config"
 )
 
 var name = "abc"
