@@ -18,9 +18,10 @@
 package yaml
 
 import (
+	"testing"
+
 	"github.com/apolloconfig/agollo/v4/utils"
 	"github.com/apolloconfig/agollo/v4/utils/parse"
-	"testing"
 
 	. "github.com/tevid/gohamcrest"
 )
@@ -43,11 +44,11 @@ e:
     e1: e1`)
 	Assert(t, err, NilVal())
 
-	Assert(t, s["a.a1"], Equal("a1"))
+	Assert(t, s["a##..a1"], Equal("a1"))
 
-	Assert(t, s["b.b1"], Equal("b1"))
+	Assert(t, s["b##..b1"], Equal("b1"))
 
-	Assert(t, s["c.c1"], Equal("c1"))
+	Assert(t, s["c##..c1"], Equal("c1"))
 
 }
 

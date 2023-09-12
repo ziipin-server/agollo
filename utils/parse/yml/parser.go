@@ -19,11 +19,12 @@ package yml
 
 import (
 	"bytes"
+
 	"github.com/apolloconfig/agollo/v4/utils"
 	"github.com/spf13/viper"
 )
 
-var vp = viper.New()
+var vp = viper.NewWithOptions(viper.KeyDelimiter("##.."))
 
 func init() {
 	vp.SetConfigType("yml")
