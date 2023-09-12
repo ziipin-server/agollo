@@ -1,4 +1,4 @@
-module github.com/apolloconfig/agollo/v4
+module github.com/ziipin-server/agollo/v4
 
 require (
 	github.com/spf13/viper v1.8.1
