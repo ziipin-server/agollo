@@ -37,6 +37,7 @@ import (
 	"github.com/ziipin-server/agollo/v4/protocol/auth/sign"
 	"github.com/ziipin-server/agollo/v4/storage"
 	"github.com/ziipin-server/agollo/v4/utils"
+	jsonParser "github.com/ziipin-server/agollo/v4/utils/parse/json"
 	"github.com/ziipin-server/agollo/v4/utils/parse/normal"
 	"github.com/ziipin-server/agollo/v4/utils/parse/properties"
 	"github.com/ziipin-server/agollo/v4/utils/parse/yaml"
@@ -56,6 +57,7 @@ func init() {
 	extension.AddFormatParser(constant.Properties, &properties.Parser{})
 	extension.AddFormatParser(constant.YML, &yml.Parser{})
 	extension.AddFormatParser(constant.YAML, &yaml.Parser{})
+	extension.AddFormatParser(constant.JSON, &jsonParser.Parser{})
 }
 
 var syncApolloConfig = remote.CreateSyncApolloConfig()
